@@ -1,0 +1,85 @@
+
+HTML
+
+<!DOCTYPE html>
+
+<html lang="en"US>
+<head>
+     
+     <title> </title>
+     
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+     
+       
+     
+         
+     
+</head>
+
+ <body>
+  <div id="header">
+  <h2>Fixed width layout</h2>
+   </div>
+   
+   <div id="left"></div>
+   <h2>left colmun</h2>
+  </div>
+
+  <div id="right">
+    <h2>Right colmun
+      <div id="footer">
+       <p>Microsoft co.</p> 
+
+      </div>
+    </h2>
+  </div>
+<div id="footer">
+  <p>Java</p>
+</footer>
+ </body>
+</html>
+
+
+
+
+style.CSS
+
+#header{
+    background-color: #e2e393;
+    text-align: center;
+    border-bottom: 3px solid black;
+    width: 800px;
+    padding: 1em;
+    
+}
+
+#left{
+    float: left;
+    width: 200px;
+    clear: left;
+    border-right: 1px solid black;
+    height: 30em;
+    overflow: auto;
+    padding-right: 30em;
+
+
+    
+}
+
+#right{
+    float: left;
+    width: 570px;
+    height: 30em;
+    overflow: auto;
+    padding: 5em;
+
+    
+
+
+  #footer{ 
+      width: 300px;
+      text-align: center;
+      background-color: #e2e393;
+      border: 3px double black;
+      clear:both;
+  }
